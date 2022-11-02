@@ -1,0 +1,15 @@
+.filme {
+    width: 812px;
+    height: 427px;
+}
+
+html {
+    --texto: #BFBFBF;
+    --corFundo: #2c2c2c;
+
+}
+
+
+.cabecalho__item {
+    display: inline;
+}
