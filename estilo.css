@@ -6,10 +6,49 @@
 html {
     --texto: #BFBFBF;
     --corFundo: #2c2c2c;
+    --corpo: #1c1b1b;
 
 }
 
+body {
+    background: var(--corpo);
+}
+
+header {
+    background-color: var(--corFundo);
+    padding: 20px 0;
+}
+
+.logo {
+    width: 10%;
+}
+
+.caixa {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.cabecalho {
+    position: absolute;
+    top: 55px;
+    right: 0;
+
+}
 
 .cabecalho__item {
     display: inline;
+    color: #BFBFBF;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+
+.cabecalho__item:hover {
+    color: rgb(189, 30, 30);
+    cursor: pointer;
+    transition: 0.5s;
+
 }
