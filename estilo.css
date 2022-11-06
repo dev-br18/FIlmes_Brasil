@@ -45,10 +45,86 @@ header {
     font-weight: bold;
 }
 
-
-.cabecalho__item:hover {
+.cabecalho__item a{
+    text-decoration: none;
+    color: #BFBFBF;
+}
+.cabecalho__item a:hover {
     color: rgb(189, 30, 30);
     cursor: pointer;
+    text-decoration: none;
     transition: 0.5s;
 
+}
+
+
+.capa{
+    width: 150px;
+}
+
+
+
+
+.filmes{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+    
+
+}
+
+.filmes__lista{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 30%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: rgb(189, 30, 30) solid 2px;
+    
+}
+
+.filmes__tag{
+    color: #FEFEFE;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.filmes__titulo{
+    color: #BFBFBF;
+    font-size: 1.5rem;
+    margin: 10px 0 0;
+}
+
+.filmes__Detalhes{
+    color: rgb(189, 30, 30);
+    margin: 10px 0 0;
+}
+
+.filme__rn{
+    text-decoration: none;
+}
+
+.filmes__detalhes-desc{
+    color: aliceblue;
+}
+
+.titulo__Destaques{
+    margin-top: 20px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+
+.Rodape{
+    background-color: #090808;
+    color: rgb(244, 244, 244);
+    padding: 50px 0;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
 }
